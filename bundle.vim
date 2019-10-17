@@ -144,6 +144,7 @@ end
 " package group - inter
 "----------------------------------------------------------------------
 if index(g:bundle_group, 'inter') >= 0
+	Plug 'valloric/youcompleteme'
 	Plug 'vim-scripts/L9'
 	" Plug 'wsdjeg/FlyGrep.vim'
 	Plug 'tpope/vim-abolish'
